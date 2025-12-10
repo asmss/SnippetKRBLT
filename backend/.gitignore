@@ -1,0 +1,23 @@
+
+/node_modules
+/vendor # (Diğer diller/çatılar için bazen kullanılır)
+/target # (Java/Maven/Gradle gibi derlenen diller)
+
+/dist
+/build
+/out
+npm-debug.log*
+
+.env
+.env.local
+.env.development
+.env.production
+config.js # (Eğer hassas veriler içeriyorsa)
+*.key
+*.pem
+
+
+.DS_Store # Mac
+Thumbs.db # Windows
+*.sublime-workspace
+.vscode/ # VS Code ayarları
