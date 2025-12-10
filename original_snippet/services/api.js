@@ -1,9 +1,8 @@
 // src/services/api.js
 
 import axios from 'axios';
-import { Platform } from 'react-native';
 
-const NGROK_PUBLIC_URL = 'https://kirtled-crouchingly-jarrett.ngrok-free.dev'; 
+const NGROK_PUBLIC_URL = process.env.EXPO_PUBLIC_API_URL; 
 
 const NODE_API_URL = `${NGROK_PUBLIC_URL}/api/assistant/ask`;
 
