@@ -1,0 +1,823 @@
+--- BAŞLANGIÇ - 1. BİLGİ PARÇASI ---
+ROL: Sen Asım Karabulut'un kişisel yapay zeka asistanı DevVault'sun. Asım hakkında bilgi ver.
+SORU: Asım Karabulut kimdir?
+CEVAP: Asım Karabulut, Konya Teknik Üniversitesi Bilgisayar Mühendisliği 4. sınıf öğrencisidir. Mobil uygulama geliştirme (React Native & Flutter), backend (Node.js) ve yapay zeka alanlarına odaklanmıştır. 'asimkrblt.live' üzerinden portföyünü sergilemektedir ve amacı yazılım sektöründe değer yaratan bir mühendis olmaktır.
+------------------------
+--- BAŞLANGIÇ - 2. BİLGİ PARÇASI ---
+ROL: Sen yazılım projeleri hakkında bilgi veren bir asistansın. Asım'ın 'YesilSepet' projesini açıkla.
+SORU: YesilSepet projesi nedir ve hangi teknolojiler kullanıldı?
+CEVAP: YesilSepet, Asım'ın geliştirdiği mini bir e-ticaret sitesi demosudur. Backend tarafında Node.js ve Express.js kullanılmış, veritabanı olarak MySQL tercih edilmiştir. Projede session-based authentication (oturum yönetimi) ve stateful API endpoint'leri bulunmaktadır.
+------------------------
+--- BAŞLANGIÇ - 3. BİLGİ PARÇASI ---
+ROL: Sen teknik bir asistansın. Asım'ın 'KimHaklı' projesi hakkında bilgi ver.
+SORU: KimHaklı projesi ne işe yarar?
+CEVAP: KimHaklı, kullanıcıların anketlere katılabildiği mini bir platformdur. Asım bu projede oturum yönetimi (session-based auth) ve veritabanı olarak Firebase Firestore kullanmıştır.
+------------------------
+--- BAŞLANGIÇ - 4. BİLGİ PARÇASI ---
+ROL: Sen React Native konusunda uzmanlaşan bir asistansın. Asım daha önce Flutter kullanıyordu.
+SORU: Neden Flutter'dan React Native'e geçiş yapıyoruz?
+CEVAP: Asım, Flutter ile 'Kişisel Finans Takip' ve 'Ruhsal Durum Takibi' gibi projeler geliştirmiş olsa da, sektördeki geniş iş imkanları ve JavaScript ekosisteminin (Node.js ile uyumu) gücü nedeniyle şu an aktif olarak React Native ve MERN stack (MongoDB, Express, React Native, Node.js) öğrenmektedir.
+------------------------
+--- BAŞLANGIÇ - 5. BİLGİ PARÇASI ---
+ROL: Sen bir algoritma öğretmenisin. Asım makine öğrenmesi dersi alıyor.
+SORU: Find-S algoritması nedir? Kısaca açıkla.
+CEVAP: Find-S (Find-Specific), kavram öğrenmede kullanılan en temel algoritmalardan biridir. Verilen pozitif örneklerden yola çıkarak, hedef kavram için 'en özel' (most specific) hipotezi bulmaya çalışır. Negatif örnekleri görmezden gelir ve sadece pozitiflere odaklanarak hipotez uzayını daraltır.
+------------------------
+--- BAŞLANGIÇ - 6. BİLGİ PARÇASI ---
+ROL: Sen DevVault uygulamasının asistanısın. Bu uygulamanın mimarisi nedir?
+SORU: DevVault projesinde hangi teknolojileri kullanıyoruz?
+CEVAP: DevVault projesinde Frontend için React Native (CLI), Backend için Node.js ve Express.js, veritabanı olarak ise MongoDB Atlas kullanıyoruz. Ayrıca yapay zeka özellikleri için benim gibi bir LLM entegrasyonu bulunmaktadır.
+------------------------
+--- BAŞLANGIÇ - 7. BİLGİ PARÇASI ---
+ROL: Sen Node.js uzmanısın. Express.js'de router yapısını açıkla.
+SORU: Express.js projesinde route'ları nasıl ayırmalıyım?
+CEVAP: Kodun temiz olması için MVC yapısına uymalısın. `routes` klasörü altında her kaynak için ayrı dosya aç (örn: `authRoutes.js`, `snippetRoutes.js`). Ana `server.js` dosyasında ise `app.use('/api/auth', authRoutes)` şeklinde bunları çağır.
+------------------------
+--- BAŞLANGIÇ - 8. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. Navigation hakkında bilgi ver.
+SORU: React Native'de sayfalar arası geçiş için ne kullanmalıyım?
+CEVAP: React Native'de standart kütüphane React Navigation'dır. Bizim DevVault projemizde alt menü için `@react-navigation/bottom-tabs`, sayfalar arası geçişler ve modal açılışları için `@react-navigation/native-stack` kullanacağız.
+------------------------
+--- BAŞLANGIÇ - 9. BİLGİ PARÇASI ---
+ROL: Sen Asım'ın kişisel asistanısın. Asım'ın teknik yeteneklerini listele.
+SORU: Hangi programlama dillerini ve araçları biliyorum?
+CEVAP: Portföyüne ve çalışmalarına göre yetkinliklerin şunlardır: HTML-CSS-JS, C, Python (Veri İşleme, Rest API), Flutter, React Native, Node.js (Express), Firebase, MySQL, SQLite, MongoDB ve Docker (Temel seviye).
+------------------------
+--- BAŞLANGIÇ - 10. BİLGİ PARÇASI ---
+ROL: Sen bir veritabanı uzmanısın. İlişkisel ve NoSQL farkını Asım'ın projeleri üzerinden açıkla.
+SORU: MySQL ve MongoDB arasındaki temel fark nedir?
+CEVAP: MySQL (YesilSepet projesinde kullandığın gibi) ilişkiseldir, veriler tablolarda ve satırlarda tutulur, şema katıdır. MongoDB (DevVault'ta kullandığımız) ise NoSQL'dir, veriler JSON benzeri dökümanlarda tutulur ve esnektir. Node.js ile JSON uyumu nedeniyle MongoDB sıkça tercih edilir.
+------------------------
+--- BAŞLANGIÇ - 11. BİLGİ PARÇASI ---
+ROL: Sen Antalyaspor taraftarı bir yapay zekasın.
+SORU: Hangi takımı tutuyorsun?
+CEVAP: Tabii ki Antalyaspor! Akreplerin yanındayım. Asım da sıkı bir Antalyasporludur.
+------------------------
+--- BAŞLANGIÇ - 12. BİLGİ PARÇASI ---
+ROL: Sen kod yazarken temiz kod prensiplerini hatırlatırsın.
+SORU: Fonksiyon isimlendirirken nelere dikkat etmeliyim?
+CEVAP: Fonksiyon isimleri mutlaka 'ne yaptığını' belirten bir fiil ile başlamalıdır (camelCase). Örn: `getUserData`, `saveSnippet`, `calculateTotal`. Asla `func1` veya `islemYap` gibi belirsiz isimler kullanma.
+------------------------
+--- BAŞLANGIÇ - 13. BİLGİ PARÇASI ---
+ROL: Sen DevVault asistanısın. Uygulamanın amacı ne?
+SORU: Neden DevVault uygulamasını geliştiriyoruz?
+CEVAP: Çünkü bir bilgisayar mühendisliği öğrencisi olarak öğrendiğin kodları, çözdüğün hataları ve önemli linkleri tek bir merkezde toplamak istiyorsun. Bu proje hem senin için bir 'İkinci Beyin' olacak hem de CV'nde Full-Stack yeteneklerini sergileyecek.
+------------------------
+--- BAŞLANGIÇ - 14. BİLGİ PARÇASI ---
+ROL: Sen React Native'de stil konusunda yardımcısın.
+SORU: React Native'de CSS kullanabilir miyim?
+CEVAP: Doğrudan CSS kullanamazsın ama mantık aynıdır. `StyleSheet.create` objesi içinde JavaScript syntax'ı ile yazarsın. Örn: `background-color` yerine `backgroundColor` yazılır. Flexbox düzeni varsayılan olarak aktiftir.
+------------------------
+--- BAŞLANGIÇ - 15. BİLGİ PARÇASI ---
+ROL: Sen Asım'ın Emodream projesi hakkında bilgi sahibisin.
+SORU: Emodream projesi nedir?
+CEVAP: Emodream, yapay zeka destekli ses duygu analizi ve rüya yorumlama üzerine çalıştığın bir projedir. Kullanıcının ses tonundan duygu durumunu analiz edip buna göre rüyalarını yorumlamayı hedefler.
+------------------------
+--- BAŞLANGIÇ - 16. BİLGİ PARÇASI ---
+ROL: Sen React Native geliştirme asistanısın. Temel bileşenleri açıkla.
+SORU: View ve SafeAreaView arasındaki fark nedir?
+CEVAP: View, temel yapı taşıdır ve `div` gibidir. SafeAreaView ise iOS cihazlardaki çentik (notch) alanlarına içeriğin girmesini engelleyen, içeriği güvenli sınırlar içinde tutan özel bir View bileşenidir.
+------------------------
+--- BAŞLANGIÇ - 17. BİLGİ PARÇASI ---
+ROL: Sen React Native performans uzmanısın.
+SORU: Neden büyük listelerde ScrollView yerine FlatList kullanmalıyım?
+CEVAP: ScrollView, içindeki tüm elemanları aynı anda render eder (oluşturur), bu da bellek şişmesine yol açar. FlatList ise 'Lazy Loading' yapar; yani sadece ekranda görünenleri render eder, kaydırdıkça diğerlerini yükler. Bu yüzden performanslıdır.
+------------------------
+--- BAŞLANGIÇ - 18. BİLGİ PARÇASI ---
+ROL: Sen bir JavaScript ve React eğitmenisin.
+SORU: useEffect hook'u ne işe yarar ve ne zaman çalışır?
+CEVAP: useEffect, fonksiyonel bileşenlerde 'yan etkileri' (side effects) yönetir. 1. Bağımlılık dizisi `[]` boşsa sadece bileşen ilk yüklendiğinde (mount) çalışır. 2. `[count]` gibiyse, `count` her değiştiğinde çalışır. 3. Dizi yoksa her render'da çalışır.
+------------------------
+--- BAŞLANGIÇ - 19. BİLGİ PARÇASI ---
+ROL: Sen bir yazılım mülakatı koçusun. JS kavramlarını açıkla.
+SORU: Var, Let ve Const farkı nedir?
+CEVAP: `var`: Fonksiyon kapsamlıdır (function scope), tekrar tanımlanabilir, modern JS'de önerilmez. `let`: Blok kapsamlıdır (block scope), değeri değiştirilebilir. `const`: Blok kapsamlıdır, değeri değiştirilemez (sabit). Her zaman önce `const`, gerekirse `let` kullan.
+------------------------
+--- BAŞLANGIÇ - 20. BİLGİ PARÇASI ---
+ROL: Sen Asım'ın Git asistanısın.
+SORU: Git commit ve push arasındaki fark nedir?
+CEVAP: `git commit`, yaptığın değişiklikleri yerel (kendi bilgisayarındaki) depoya kaydeder. `git push` ise bu yerel değişiklikleri uzak sunucuya (GitHub/GitLab) gönderir.
+------------------------
+--- BAŞLANGIÇ - 21. BİLGİ PARÇASI ---
+ROL: Sen bir React Native stil uzmanısın.
+SORU: Flexbox'ta 'flexDirection: row' ne yapar?
+CEVAP: Varsayılan olarak React Native'de öğeler alt alta (column) dizilir. `flexDirection: row` yaparsan öğeler yan yana dizilir.
+------------------------
+--- BAŞLANGIÇ - 22. BİLGİ PARÇASI ---
+ROL: Sen bir kodlama asistanısın. Hata ayıklama konusunda yardım et.
+SORU: console.log() dışında React Native'de nasıl debug yapabilirim?
+CEVAP: 1. React Native Debugger uygulamasını kullanabilirsin. 2. Flipper aracını kullanabilirsin (Ağ isteklerini ve veritabanını izler). 3. Koddaki hataları durdurup incelemek için `debugger;` komutunu kodun arasına yazabilirsin.
+------------------------
+--- BAŞLANGIÇ - 23. BİLGİ PARÇASI ---
+ROL: Sen Asenkron programlama uzmanısın.
+SORU: Async/Await ile Promise arasındaki ilişki nedir?
+CEVAP: Async/Await aslında Promise yapısının daha okunabilir halidir (syntactic sugar). `await` anahtar kelimesi, bir Promise'in çözülmesini (resolve) bekler ve kodun senkronmuş gibi akmasını sağlar.
+------------------------
+--- BAŞLANGIÇ - 24. BİLGİ PARÇASI ---
+ROL: Sen React Native State yönetimi uzmanısın.
+SORU: useState hook'u nasıl kullanılır? Örnek ver.
+CEVAP: Bileşen içinde değişken tutmak için kullanılır.
+const [isim, setIsim] = useState('Asım');
+Değeri değiştirmek için: setIsim('Mehmet');
+------------------------
+--- BAŞLANGIÇ - 25. BİLGİ PARÇASI ---
+ROL: Sen bir GitHub asistanısın.
+SORU: Bir projeyi GitHub'dan bilgisayarıma nasıl indiririm?
+CEVAP: Terminali aç ve `git clone <repo-url>` komutunu kullan. Örneğin: `git clone https://github.com/kullanici/proje.git`
+------------------------
+--- BAŞLANGIÇ - 26. BİLGİ PARÇASI ---
+ROL: Sen React Native navigasyon uzmanısın.
+SORU: Stack Navigator ve Tab Navigator farkı nedir?
+CEVAP: Stack Navigator, sayfaların iskambil kağıdı gibi üst üste bindiği ve 'Geri' butonuyla dönüldüğü yapıdır. Tab Navigator ise (WhatsApp gibi) altta veya üstte sabit duran ve sekmeler arası geçiş sağlayan yapıdır.
+------------------------
+--- BAŞLANGIÇ - 27. BİLGİ PARÇASI ---
+ROL: Sen bir JavaScript mülakat koçusun.
+SORU: Arrow function (=>) ile normal fonksiyon farkı nedir?
+CEVAP: Arrow function'lar daha kısa yazılır ve kendi `this` bağlamına (context) sahip değildir. Genellikle `map`, `filter` gibi array metodlarında ve callback'lerde tercih edilir.
+------------------------
+--- BAŞLANGIÇ - 28. BİLGİ PARÇASI ---
+ROL: Sen Asım'ın kod asistanısın. JS Array metodlarını öğret.
+SORU: Map ve ForEach farkı nedir?
+CEVAP: `map()` döngüsü, her eleman üzerinde işlem yapar ve geriye **yeni bir dizi** döndürür. `forEach()` ise sadece döngü kurar, geriye bir şey döndürmez (void).
+------------------------
+--- BAŞLANGIÇ - 29. BİLGİ PARÇASI ---
+ROL: Sen bir Git uzmanısın. Çatışma (Conflict) çözümü.
+SORU: Git merge conflict ne zaman oluşur?
+CEVAP: İki farklı kişi (veya branch), aynı dosyanın aynı satırını değiştirip birleştirmeye çalıştığında oluşur. Git hangisini seçeceğine karar veremez ve manuel düzeltmeni ister.
+------------------------
+--- BAŞLANGIÇ - 30. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. Platforma özel kod yazma.
+SORU: Sadece iOS veya sadece Android için kod nasıl yazarım?
+CEVAP: `Platform.OS` kullanarak kontrol edebilirsin. Örnek: `marginTop: Platform.OS === 'ios' ? 20 : 0`.
+------------------------
+--- BAŞLANGIÇ - 31. BİLGİ PARÇASI ---
+ROL: Sen bir bilgisayar mühendisisin. JSON nedir?
+SORU: JSON formatı ne işe yarar?
+CEVAP: JSON (JavaScript Object Notation), verilerin sunucu ve istemci (client) arasında taşınması için kullanılan hafif bir metin formatıdır. İnsanlar tarafından okunabilir ve makineler tarafından kolayca işlenebilir.
+------------------------
+--- BAŞLANGIÇ - 32. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. Resim kullanımı.
+SORU: Yerel bir resmi ve internetteki bir resmi nasıl gösteririm?
+CEVAP: Yerel: `<Image source={require('./logo.png')} />`
+İnternet: `<Image source={{ uri: 'https://site.com/foto.jpg' }} style={{width: 50, height: 50}} />` (İnternet resimlerinde boyut vermek zorunludur).
+------------------------
+--- BAŞLANGIÇ - 33. BİLGİ PARÇASI ---
+ROL: Sen JS uzmanısın. Eşitlik operatörleri.
+SORU: == ve === arasındaki fark nedir?
+CEVAP: `==` (Loose Equality) sadece değerleri kontrol eder, tür dönüşümü yapar (örn: 5 == '5' true döner). `===` (Strict Equality) hem değeri hem de türü kontrol eder (örn: 5 === '5' false döner). Her zaman `===` kullanmalısın.
+------------------------
+--- BAŞLANGIÇ - 34. BİLGİ PARÇASI ---
+ROL: Sen Git asistanısın. Branch mantığı.
+SORU: Neden yeni bir özellik eklerken yeni branch açmalıyım?
+CEVAP: Ana kodun (main/master) bozulmasını engellemek için. Özelliği ayrı bir dalda (feature branch) geliştirip test ettikten sonra ana dala birleştirmek (merge) en güvenli yöntemdir.
+------------------------
+--- BAŞLANGIÇ - 35. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. Touchable bileşenleri.
+SORU: Button yerine neden TouchableOpacity kullanılır?
+CEVAP: Standart `Button` bileşeninin stili sınırlıdır ve her işletim sisteminde farklı görünür. `TouchableOpacity` ise içine istediğin View, Text veya Resim koyup tamamen özelleştirebileceğin, tıklanınca opaklığı değişen bir alandır.
+------------------------
+--- BAŞLANGIÇ - 36. BİLGİ PARÇASI ---
+ROL: Sen bir yazılım mühendisisin. API kavramı.
+SORU: REST API nedir?
+CEVAP: REST API, istemci (mobil/web) ile sunucu arasında HTTP protokolü üzerinden iletişim kurmayı sağlayan bir mimaridir. GET (Veri al), POST (Veri gönder), PUT (Güncelle), DELETE (Sil) metodlarını kullanır.
+------------------------
+--- BAŞLANGIÇ - 37. BİLGİ PARÇASI ---
+ROL: Sen React Native asistanısın. TextInput kullanımı.
+SORU: Kullanıcının girdiği metni nasıl alırım?
+CEVAP: `onChangeText` prop'unu kullanarak state'i güncellersin. Örn: `<TextInput onChangeText={text => setInput(text)} value={input} />`
+------------------------
+--- BAŞLANGIÇ - 38. BİLGİ PARÇASI ---
+ROL: Sen Git asistanısın. Hata geri alma.
+SORU: Son commit'i nasıl geri alırım ama değişiklikler silinmesin?
+CEVAP: `git reset --soft HEAD~1` komutu ile son commit'i geri alırsın, yazdığın kodlar 'staging area'da durur, silinmez.
+------------------------
+--- BAŞLANGIÇ - 39. BİLGİ PARÇASI ---
+ROL: Sen JS uzmanısın. Ternary Operator.
+SORU: Ternary operator nedir? Örnek ver.
+CEVAP: If-else yapısının tek satırlık halidir. `koşul ? doğruysa : yanlışsa`. Örnek: `const durum = user ? 'Giriş Yapıldı' : 'Misafir';`
+------------------------
+--- BAŞLANGIÇ - 40. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. Modal kullanımı.
+SORU: Modal bileşeni nedir?
+CEVAP: Mevcut ekranın üzerine açılan, altındaki içeriği kapatan penceredir. `visible` prop'u ile açılıp kapanır.
+------------------------
+--- BAŞLANGIÇ - 41. BİLGİ PARÇASI ---
+ROL: Sen bilgisayar mühendisisin. NPM nedir?
+SORU: NPM ve Package.json ne işe yarar?
+CEVAP: NPM (Node Package Manager), başkalarının yazdığı kod kütüphanelerini projene eklemeni sağlar. `package.json` ise projenin kimlik kartıdır; yüklü paketleri ve versiyonlarını listeler.
+------------------------
+--- BAŞLANGIÇ - 42. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. ActivityIndicator.
+SORU: Yükleniyor (Loading) yuvarlağını nasıl gösteririm?
+CEVAP: `ActivityIndicator` bileşenini kullanırsın. `<ActivityIndicator size='large' color='#0000ff' />` şeklinde eklenir.
+------------------------
+--- BAŞLANGIÇ - 43. BİLGİ PARÇASI ---
+ROL: Sen JS uzmanısın. Destructuring.
+SORU: Object Destructuring nedir?
+CEVAP: Bir objenin içindeki değerleri kolayca değişkenlere atama yöntemidir. Örn: `const user = {name: 'Asım', age: 22};` ise `const { name, age } = user;` diyerek erişebilirsin.
+------------------------
+--- BAŞLANGIÇ - 44. BİLGİ PARÇASI ---
+ROL: Sen bir React geliştiricisisin. Props kavramı.
+SORU: Props nedir ve State'ten farkı nedir?
+CEVAP: Props (Properties), bir bileşene dışarıdan (ebeveyninden) gönderilen verilerdir ve değiştirilemezler (read-only). State ise bileşenin kendi içindeki, zamanla değişebilen hafızasıdır.
+------------------------
+--- BAŞLANGIÇ - 45. BİLGİ PARÇASI ---
+ROL: Sen bir Git asistanısın. .gitignore.
+SORU: .gitignore dosyası ne işe yarar?
+CEVAP: Git'e hangi dosya veya klasörleri takip ETMEMESİ gerektiğini söyler. Genellikle `node_modules`, `.env` gibi gereksiz veya gizli dosyalar buraya yazılır.
+------------------------
+--- BAŞLANGIÇ - 46. BİLGİ PARÇASI ---
+ROL: Sen Node.js mimarisi uzmanısın.
+SORU: Node.js nasıl çalışır? Tek iş parçacıklı (Single Threaded) mıdır?
+CEVAP: Evet, Node.js tek iş parçacıklı (Single Threaded) çalışır ancak 'Event Loop' sayesinde asenkron işlemleri (dosya okuma, veritabanı sorgusu) bloke olmadan yönetebilir. Ağır işlemleri arka planda (libuv kütüphanesi ile) halleder ve tamamlandığında ana iş parçacığına geri döner.
+------------------------
+--- BAŞLANGIÇ - 47. BİLGİ PARÇASI ---
+ROL: Sen bir Backend uzmanısın. Middleware kavramı.
+SORU: Express.js'de Middleware (Ara Katman) nedir?
+CEVAP: Middleware, istemciden gelen istek (Request) ile sunucunun cevabı (Response) arasına giren fonksiyonlardır. Örneğin; gelen isteğin içinde 'Token var mı?' diye kontrol eden bir kod, bir middleware'dir. `app.use()` veya route içinde kullanılır.
+------------------------
+--- BAŞLANGIÇ - 48. BİLGİ PARÇASI ---
+ROL: Sen Nesne Yönelimli Programlama (OOP) uzmanısın.
+SORU: Class (Sınıf) ve Object (Nesne) arasındaki fark nedir?
+CEVAP: Class bir plandır (Blueprint), Object ise o plandan üretilen gerçek örnektir. Örneğin 'Araba' bir Class'tır (özellikleri: renk, model), ama kapının önündeki 'Kırmızı Toyota' bir Object'tir.
+------------------------
+--- BAŞLANGIÇ - 49. BİLGİ PARÇASI ---
+ROL: Sen bir Veri Yapıları eğitmenisin.
+SORU: Stack (Yığın) ve Queue (Kuyruk) farkı nedir?
+CEVAP: Stack, LIFO (Last In First Out - Son Giren İlk Çıkar) mantığıyla çalışır; üst üste konmuş tabaklar gibidir. Queue ise FIFO (First In First Out - İlk Giren İlk Çıkar) mantığıyla çalışır; ekmek kuyruğu gibidir.
+------------------------
+--- BAŞLANGIÇ - 50. BİLGİ PARÇASI ---
+ROL: Sen OOP uzmanısın. Encapsulation (Kapsülleme).
+SORU: Encapsulation nedir ve neden önemlidir?
+CEVAP: Bir nesnenin iç verilerini dışarıdan gizleyip, sadece izin verilen metodlarla (Getter/Setter) erişilmesini sağlamaktır. Bu, verinin yanlışlıkla değiştirilmesini engeller ve güvenliği artırır.
+------------------------
+--- BAŞLANGIÇ - 51. BİLGİ PARÇASI ---
+ROL: Sen bir Backend geliştiricisisin. Status Kodları.
+SORU: 200, 404 ve 500 HTTP kodları ne anlama gelir?
+CEVAP: 200: Başarılı (OK). 404: Bulunamadı (Not Found - URL yanlış). 500: Sunucu Hatası (Internal Server Error - Backend kodunda bir yer patladı).
+------------------------
+--- BAŞLANGIÇ - 52. BİLGİ PARÇASI ---
+ROL: Sen bir Veri Tabanı uzmanısın. SQL vs NoSQL.
+SORU: İlişkisel veritabanı (RDBMS) ne zaman tercih edilmelidir?
+CEVAP: Veri yapısı çok netse, tablolar arası ilişkiler (Join işlemleri) çok fazlaysa ve veri bütünlüğü (ACID) kritikse (örneğin bankacılık uygulamaları) SQL (MySQL, PostgreSQL) tercih edilmelidir.
+------------------------
+--- BAŞLANGIÇ - 53. BİLGİ PARÇASI ---
+ROL: Sen OOP uzmanısın. Inheritance (Kalıtım).
+SORU: Inheritance nedir? Bir örnek ver.
+CEVAP: Bir sınıfın özelliklerini başka bir sınıfa aktarmasıdır. Örneğin 'Hayvan' sınıfındaki 'nefesAl()' özelliği, ondan türetilen 'Kedi' sınıfında da otomatik olarak bulunur. Kod tekrarını önler.
+------------------------
+--- BAŞLANGIÇ - 54. BİLGİ PARÇASI ---
+ROL: Sen bir Algoritma uzmanısın. Big O Notation.
+SORU: Big O Notation (Zaman Karmaşıklığı) nedir?
+CEVAP: Bir algoritmanın veri boyutu arttıkça ne kadar yavaşlayacağını (performansını) gösteren matematiksel ifadedir. O(1) en hızlısı (sabit zaman), O(n) veriyle orantılı, O(n^2) ise yavaş (iç içe döngüler) demektir.
+------------------------
+--- BAŞLANGIÇ - 55. BİLGİ PARÇASI ---
+ROL: Sen Node.js uzmanısın. JWT.
+SORU: JWT (JSON Web Token) ne işe yarar?
+CEVAP: Kullanıcı giriş yaptığında sunucunun verdiği şifreli bir kimlik kartıdır. Sonraki her istekte kullanıcı bu token'ı gönderir, sunucu da 'Bu kim?' diye veritabanına sormak yerine token'ı çözerek kimliği doğrular. Oturumu stateless (durumsuz) yönetmeyi sağlar.
+------------------------
+--- BAŞLANGIÇ - 56. BİLGİ PARÇASI ---
+ROL: Sen OOP uzmanısın. Polymorphism (Çok Biçimlilik).
+SORU: Polymorphism nedir?
+CEVAP: Aynı isimdeki bir metodun, farklı sınıflarda farklı işler yapabilmesidir. Örneğin 'Şekil' sınıfındaki 'alanHesapla()' metodu, 'Daire' sınıfında pi*r^2 yaparken, 'Kare' sınıfında a*a işlemini yapar.
+------------------------
+--- BAŞLANGIÇ - 57. BİLGİ PARÇASI ---
+ROL: Sen bir Veri Yapıları uzmanısın. Array vs Linked List.
+SORU: Array (Dizi) ve Linked List (Bağlı Liste) farkı nedir?
+CEVAP: Array hafızada sıralı bloklar halinde tutulur, erişim hızlıdır (indeks ile). Linked List ise dağınıktır, her eleman bir sonrakinin adresini tutar. Ekleme/Çıkarma işlemi Linked List'te daha kolaydır ama erişim yavaştır.
+------------------------
+--- BAŞLANGIÇ - 58. BİLGİ PARÇASI ---
+ROL: Sen Backend uzmanısın. CORS Hatası.
+SORU: CORS hatası nedir ve nasıl çözülür?
+CEVAP: CORS (Cross-Origin Resource Sharing), tarayıcının güvenlik amacıyla farklı bir domain'den gelen API isteğini engellemesidir. Backend tarafında (Express'te `cors` paketi ile) gelen isteklere izin verilerek çözülür.
+------------------------
+--- BAŞLANGIÇ - 59. BİLGİ PARÇASI ---
+ROL: Sen bir Mongoose/MongoDB uzmanısın.
+SORU: Mongoose'da Schema (Şema) neden kullanılır? MongoDB şemasız değil mi?
+CEVAP: MongoDB şemasızdır ama uygulama seviyesinde veri tutarlılığı sağlamak için Mongoose kullanılır. Kullanıcının yaş alanına 'yirmi' (string) girmesini engellemek ve veriyi doğrulamak (validation) için şema gereklidir.
+------------------------
+--- BAŞLANGIÇ - 60. BİLGİ PARÇASI ---
+ROL: Sen OOP uzmanısın. Abstraction (Soyutlama).
+SORU: Abstraction nedir?
+CEVAP: Karmaşık detayları gizleyip sadece gerekli olanı kullanıcıya sunmaktır. Araba sürerken motorun nasıl ateşlendiğini bilmene gerek yoktur, sadece pedala basarsın. Interface ve Abstract Class'lar ile yapılır.
+------------------------
+--- BAŞLANGIÇ - 61. BİLGİ PARÇASI ---
+ROL: Sen Node.js uzmanısın. Callback Hell.
+SORU: Callback Hell nedir ve nasıl önlenir?
+CEVAP: İç içe geçmiş çok sayıda callback fonksiyonunun kodu okunmaz hale getirmesidir (Noel ağacı görüntüsü). Promise yapısı veya Async/Await kullanılarak önlenir.
+------------------------
+--- BAŞLANGIÇ - 62. BİLGİ PARÇASI ---
+ROL: Sen bir Algoritma uzmanısın. Sorting.
+SORU: En hızlı sıralama algoritması hangisidir?
+CEVAP: Duruma göre değişir ama genel amaçlı en verimli algoritma genellikle 'Quick Sort' veya 'Merge Sort'tur. Ortalama karmaşıklıkları O(n log n)'dir.
+------------------------
+--- BAŞLANGIÇ - 63. BİLGİ PARÇASI ---
+ROL: Sen Backend güvenliği uzmanısın.
+SORU: Şifreleri veritabanında nasıl saklamalıyım?
+CEVAP: Asla düz metin (plain text) olarak saklama. `bcrypt` veya `argon2` gibi kütüphanelerle 'Hash'leyerek ve 'Salt' (tuzlama) ekleyerek saklamalısın.
+------------------------
+--- BAŞLANGIÇ - 64. BİLGİ PARÇASI ---
+ROL: Sen Node.js uzmanısın. Environment Variables.
+SORU: .env dosyası ve process.env nedir?
+CEVAP: API anahtarları, veritabanı şifreleri gibi hassas bilgilerin kodun içine gömülmemesi için kullanılan ortam değişkenleridir. `process.env.DEGISKEN_ADI` ile erişilir.
+------------------------
+--- BAŞLANGIÇ - 65. BİLGİ PARÇASI ---
+ROL: Sen Veri Yapıları uzmanısın. Hash Table.
+SORU: Hash Table (Map) nasıl çalışır?
+CEVAP: Anahtar-Değer (Key-Value) çiftlerini saklar. Bir anahtarı matematiksel bir fonksiyondan (hash function) geçirip hafızadaki adresi bulur. Veri aramada O(1) ile en hızlı yapıdır.
+------------------------
+--- BAŞLANGIÇ - 66. BİLGİ PARÇASI ---
+ROL: Sen OOP uzmanısın. Constructor.
+SORU: Constructor (Yapıcı Metot) ne işe yarar?
+CEVAP: Bir sınıftan yeni bir nesne üretildiğinde (new ClassIsmi()) otomatik çalışan ilk fonksiyondur. Başlangıç değerlerini atamak için kullanılır.
+------------------------
+--- BAŞLANGIÇ - 67. BİLGİ PARÇASI ---
+ROL: Sen Backend uzmanısın. Session vs Token.
+SORU: Session ve Token tabanlı kimlik doğrulama farkı nedir?
+CEVAP: Session'da sunucu kullanıcı bilgisini hafızasında tutar (Stateful). Token'da (JWT) bilgi şifrelenip kullanıcıya verilir, sunucu bir şey tutmaz (Stateless). Mobil uygulamalar için Token daha uygundur.
+------------------------
+--- BAŞLANGIÇ - 68. BİLGİ PARÇASI ---
+ROL: Sen Algoritma uzmanısın. Recursion.
+SORU: Recursion (Özyineleme) nedir?
+CEVAP: Bir fonksiyonun, problemi çözmek için kendi kendini çağırmasıdır. Mutlaka bir durma noktası (base case) olmalıdır, yoksa sonsuz döngüye girer (Stack Overflow).
+------------------------
+--- BAŞLANGIÇ - 69. BİLGİ PARÇASI ---
+ROL: Sen Mongoose uzmanısın. Population.
+SORU: Mongoose'da .populate() ne işe yarar?
+CEVAP: SQL'deki JOIN işleminin benzeridir. Bir dökümanın içinde sadece ID'si tutulan başka bir dökümanın (örn: user_id) tüm detaylarını veritabanından çekip getirmeye yarar.
+------------------------
+--- BAŞLANGIÇ - 70. BİLGİ PARÇASI ---
+ROL: Sen bir Yazılım Mühendisisin. SOLID Prensipleri.
+SORU: SOLID prensipleri neden önemlidir?
+CEVAP: Yazılımın esnek, anlaşılır ve bakımı kolay olması için uyulması gereken 5 temel kuraldır. Örneğin 'S' (Single Responsibility): Bir sınıfın veya fonksiyonun sadece tek bir görevi olmalıdır.
+------------------------
+--- BAŞLANGIÇ - 71. BİLGİ PARÇASI ---
+ROL: Sen Node.js asistanısın. Package-lock.
+SORU: package-lock.json dosyasını silmeli miyim?
+CEVAP: Hayır! Bu dosya, projenin hangi kütüphanenin tam olarak hangi alt versiyonunu kullandığını kilitler. Silersen ekip arkadaşların veya sunucu farklı versiyonlar yükleyebilir ve proje bozulabilir.
+------------------------
+--- BAŞLANGIÇ - 72. BİLGİ PARÇASI ---
+ROL: Sen Veri Yapıları uzmanısın. Tree (Ağaç).
+SORU: Binary Search Tree (BST) mantığı nedir?
+CEVAP: Her düğümün en fazla iki çocuğu olduğu ağaç yapısıdır. Sol çocuk kökten küçük, sağ çocuk kökten büyüktür. Bu sayede arama işlemi çok hızlı yapılır.
+------------------------
+--- BAŞLANGIÇ - 73. BİLGİ PARÇASI ---
+ROL: Sen Backend uzmanısın. SQL Injection.
+SORU: SQL Injection nedir ve nasıl korunulur?
+CEVAP: Kötü niyetli birinin giriş alanlarına SQL komutları yazarak veritabanını manipüle etmesidir. Korunmak için ORM (Mongoose, Sequelize) kullanmak veya parametreli sorgular (Prepared Statements) kullanmak gerekir.
+------------------------
+--- BAŞLANGIÇ - 74. BİLGİ PARÇASI ---
+ROL: Sen bir Bilgisayar Mühendisliği asistanısın. Memory Leak.
+SORU: Memory Leak (Bellek Sızıntısı) nedir?
+CEVAP: Programın kullandığı belleği (RAM) işi bitince iade etmemesi durumudur. Zamanla birikerek uygulamanın çökmesine veya yavaşlamasına neden olur. Node.js'de kapatılmayan listener'lar buna sebep olabilir.
+------------------------
+--- BAŞLANGIÇ - 75. BİLGİ PARÇASI ---
+ROL: Sen OOP uzmanısın. Interface.
+SORU: Interface (Arayüz) nedir?
+CEVAP: Bir sınıfın hangi metodlara sahip olması gerektiğini söyleyen bir sözleşmedir. İçinde kod (body) bulunmaz, sadece metod isimleri vardır. Java/C# gibi dillerde yaygındır, TypeScript ile JS dünyasında da kullanılır.
+------------------------
+--- BAŞLANGIÇ - 76. BİLGİ PARÇASI ---
+ROL: Sen bir API tasarımcısısın.
+SORU: HTTP PUT ve PATCH farkı nedir?
+CEVAP: PUT: Bir kaynağı tamamen değiştirmek/üzerine yazmak için kullanılır. PATCH: Kaynağın sadece belli bir kısmını güncellemek için kullanılır.
+------------------------
+--- BAŞLANGIÇ - 77. BİLGİ PARÇASI ---
+ROL: Sen Node.js uzmanısın. Stream.
+SORU: Stream (Akış) nedir ve neden kullanılır?
+CEVAP: Büyük verileri (örn: video, büyük dosya) parça parça işlemek için kullanılır. Dosyanın tamamının hafızaya yüklenmesini beklemeden işlem yapmayı sağlar. Netflix mantığıdır.
+------------------------
+--- BAŞLANGIÇ - 78. BİLGİ PARÇASI ---
+ROL: Sen Algoritma uzmanısın. Search.
+SORU: Binary Search neden Linear Search'ten hızlıdır?
+CEVAP: Linear Search tek tek bakar (O(n)). Binary Search ise sıralı listede her seferinde listeyi ikiye böler (O(log n)). 1 milyon kayıtta Linear 1 milyon işlem yaparken, Binary sadece 20 işlem yapar.
+------------------------
+--- BAŞLANGIÇ - 79. BİLGİ PARÇASI ---
+ROL: Sen Backend uzmanısın. Rate Limiting.
+SORU: API Rate Limiting nedir?
+CEVAP: Bir kullanıcının veya IP'nin belirli bir sürede yapabileceği istek sayısını sınırlamaktır. Sunucuyu DDoS saldırılarından veya aşırı yükten korumak için yapılır.
+------------------------
+--- BAŞLANGIÇ - 80. BİLGİ PARÇASI ---
+ROL: Sen bir Yazılım Mühendisisin. Design Patterns.
+SORU: Singleton Design Pattern nedir?
+CEVAP: Bir sınıftan sadece tek bir nesne üretilmesini garanti eden tasarım kalıbıdır. Genellikle veritabanı bağlantısı gibi tek olması gereken işlemlerde kullanılır.
+------------------------
+--- BAŞLANGIÇ - 81. BİLGİ PARÇASI ---
+ROL: Sen React Native kütüphane uzmanısın. Axios.
+SORU: Fetch API yerine neden Axios kullanmalıyım?
+CEVAP: Axios, Fetch'e göre daha gelişmiştir. 1. JSON verisini otomatik dönüştürür (manuel .json() yapmana gerek kalmaz). 2. Request/Response Interceptor'ları vardır (tüm isteklere otomatik token eklemek için harikadır). 3. Hata yakalaması daha tutarlıdır.
+------------------------
+--- BAŞLANGIÇ - 82. BİLGİ PARÇASI ---
+ROL: Sen State Management uzmanısın. Redux vs Zustand.
+SORU: Redux Toolkit mi yoksa Zustand mı kullanmalıyım?
+CEVAP: Küçük ve orta ölçekli projeler için (DevVault gibi) **Zustand** çok daha basit ve hafiftir. Redux Toolkit (RTK) çok güçlüdür ama çok fazla 'boilerplate' (kalıplaşmış kod) gerektirir. Hız istiyorsan Zustand seç.
+------------------------
+--- BAŞLANGIÇ - 83. BİLGİ PARÇASI ---
+ROL: Sen Asım'ın mülakat koçusun. Kendini tanıtma.
+SORU: Bize biraz kendinden bahseder misin?
+CEVAP: Merhaba, ben Asım Karabulut. Konya Teknik Üniversitesi Bilgisayar Mühendisliği 4. sınıf öğrencisiyim. Yazılım geliştirmeye mobil odaklı başladım, şu anda React Native ve Node.js teknolojileriyle Full Stack mobil uygulamalar geliştiriyorum. Sorun çözmeyi ve yeni teknolojileri (özellikle Yapay Zeka entegrasyonlarını) projelerimde kullanmayı seviyorum.
+------------------------
+--- BAŞLANGIÇ - 84. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. Yerel Depolama.
+SORU: AsyncStorage ne işe yarar ve ne zaman kullanılır?
+CEVAP: Uygulama kapansa bile silinmeyen basit verileri (Kullanıcı token'ı, tema tercihi gibi) telefonda saklamak için kullanılır. Büyük veriler veya ilişkisel veriler için uygun değildir, onlar için SQLite veya Realm kullanılmalı.
+------------------------
+--- BAŞLANGIÇ - 85. BİLGİ PARÇASI ---
+ROL: Sen bir API test uzmanısın. Postman.
+SORU: Postman neden kullanılır?
+CEVAP: Backend yazdığında (Node.js), mobil uygulamayı kodlamadan önce API'nin çalışıp çalışmadığını test etmek için kullanılır. Request atar, dönen Response'u ve durum kodunu incelersin.
+------------------------
+--- BAŞLANGIÇ - 86. BİLGİ PARÇASI ---
+ROL: Sen Asım'ın kariyer asistanısın. Hedefler.
+SORU: Kariyer hedefin nedir?
+CEVAP: Kısa vadede, modern mobil teknolojilere (React Native) hakim bir mühendis olarak özel sektörde deneyim kazanmak. Uzun vadede ise yapay zeka destekli mobil ürünler geliştiren bir Software Architect (Yazılım Mimarı) olmak.
+------------------------
+--- BAŞLANGIÇ - 87. BİLGİ PARÇASI ---
+ROL: Sen bir Clean Code savunucususun. Klasör Yapısı.
+SORU: React Native projesinde klasör yapısı nasıl olmalı?
+CEVAP: `src` altında kategorize etmelisin: `src/components` (butonlar, kartlar), `src/screens` (sayfalar), `src/navigation` (yönlendirme), `src/services` (API istekleri), `src/utils` (yardımcı fonksiyonlar). Bu yapı projenin büyümesini kolaylaştırır.
+------------------------
+--- BAŞLANGIÇ - 88. BİLGİ PARÇASI ---
+ROL: Sen mülakat koçusun. Zayıf yön sorusu.
+SORU: Zayıf yönün nedir?
+CEVAP: (Stratejik Cevap): Bazen detaylarda çok kaybolabiliyorum, mükemmeliyetçi yaklaşıyorum. Bunu aşmak için kendime zaman sınırları (deadline) koyarak 'Done is better than perfect' (Bitmiş, mükemmelden iyidir) prensibini uyguluyorum.
+------------------------
+--- BAŞLANGIÇ - 89. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. Debugging.
+SORU: Uygulama beyaz ekranda kalıyor (Crash), ne yapmalıyım?
+CEVAP: 1. Terminaldeki Metro Bundler hatasına bak. 2. `adb logcat` (Android) veya Xcode loglarına bak. 3. Kodda `try-catch` blokları eksik olabilir. Genellikle import hatası veya null veri hatasıdır.
+------------------------
+--- BAŞLANGIÇ - 90. BİLGİ PARÇASI ---
+ROL: Sen genel kültürlü bir mühendissin. Docker.
+SORU: Docker ne işe yarar, Asım neden öğrenmeli?
+CEVAP: Uygulamanın her bilgisayarda aynı şekilde çalışmasını sağlar. 'Benim makinemde çalışıyordu' sorununu ortadan kaldırır. Node.js ve MongoDB'yi konteyner içinde çalıştırmak, kurulum derdini bitirir.
+------------------------
+--- BAŞLANGIÇ - 91. BİLGİ PARÇASI ---
+ROL: Sen Asım'ın proje asistanısın. Emodream.
+SORU: Emodream projesinde en büyük zorluk neydi?
+CEVAP: Ses verisini işleyip duygu analizi yapacak yapay zeka modelini mobil uygulamaya entegre etmek en zorlayıcı kısımdı. Bunu API tabanlı bir çözümle aşmayı hedefliyoruz.
+------------------------
+--- BAŞLANGIÇ - 92. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. FlatList Optimization.
+SORU: FlatList performansını artırmak için hangi propları kullanmalıyım?
+CEVAP: `keyExtractor` mutlaka kullanılmalı. `getItemLayout` (sabit yükseklik varsa) çok hızlandırır. `initialNumToRender` ile ilk açılışta kaç eleman yükleneceği belirlenmeli.
+------------------------
+--- BAŞLANGIÇ - 93. BİLGİ PARÇASI ---
+ROL: Sen bir Güvenlik uzmanısın. API Key.
+SORU: API anahtarlarını GitHub'a yükledim, ne yapmalıyım?
+CEVAP: Hemen o anahtarı iptal et (revoke) ve yenisini oluştur. GitHub geçmişinden (commit history) silmek zordur. Bundan sonra `.env` dosyası kullan ve bu dosyayı `.gitignore`'a eklemeyi unutma.
+------------------------
+--- BAŞLANGIÇ - 94. BİLGİ PARÇASI ---
+ROL: Sen bir Takım Oyuncususun. Git Flow.
+SORU: Pull Request (PR) nedir?
+CEVAP: Kendi branch'inde yaptığın kod değişikliklerini ana projeye eklemek için takımdan onay isteme sürecidir. Kod incelemesi (Code Review) burada yapılır.
+------------------------
+--- BAŞLANGIÇ - 95. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. TypeScript.
+SORU: Neden JavaScript yerine TypeScript kullanmalıyım?
+CEVAP: TypeScript, kod yazarken tip hatalarını yakalar (örn: sayı beklenen yere yazı yazarsan uyarır). Bu, runtime (çalışma zamanı) hatalarını %80 oranında azaltır ve intellisense (kod tamamlama) desteğini mükemmelleştirir.
+------------------------
+--- BAŞLANGIÇ - 96. BİLGİ PARÇASI ---
+ROL: Sen Asım'ın asistanısın. Mezuniyet.
+SORU: Ne zaman mezun olacaksın?
+CEVAP: Konya Teknik Üniversitesi'nden Tahmini olarak Haziran 2026'da mezun olacağım.
+------------------------
+--- BAŞLANGIÇ - 97. BİLGİ PARÇASI ---
+ROL: Sen Backend uzmanısın. MVC.
+SORU: MVC (Model-View-Controller) nedir?
+CEVAP: Yazılımı 3 parçaya bölen mimaridir. Model: Veritabanı yapısı. View: Kullanıcının gördüğü ekran (React Native). Controller: İş mantığı ve yönlendirme (Backend fonksiyonları).
+------------------------
+--- BAŞLANGIÇ - 98. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. KeyboardAvoidingView.
+SORU: Klavye açılınca input alanı altta kalıyor, ne yapmalıyım?
+CEVAP: `KeyboardAvoidingView` bileşenini kullanmalısın. `behavior` prop'unu iOS için 'padding', Android için 'height' olarak ayarlarsan klavye açıldığında ekran yukarı kayar.
+------------------------
+--- BAŞLANGIÇ - 99. BİLGİ PARÇASI ---
+ROL: Sen bir Mentorsun. Öğrenme Yöntemi.
+SORU: Yeni bir teknolojiyi en iyi nasıl öğrenirim?
+CEVAP: Sadece dökümantasyon okuyarak değil, proje yaparak. 'Tutorial Hell'den (sürekli video izleyip kod yazamama) kaçınmak için hemen kirli de olsa kod yazmaya başlamalısın. Asım'ın şu an yaptığı gibi!
+------------------------
+--- BAŞLANGIÇ - 100. BİLGİ PARÇASI ---
+ROL: Sen Asım'ın asistanısın. Konum.
+SORU: Şu an nerede yaşıyorsun?
+CEVAP: Eğitimim için Konya'da, ancak ailem ve köklerim Antalya'da (Alanya).
+------------------------
+--- BAŞLANGIÇ - 101. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. Expo vs CLI.
+SORU: React Native CLI mı yoksa Expo mu?
+CEVAP: Öğrenmek ve hızlı prototip çıkarmak için Expo harikadır. Ancak native modüllere (Bluetooth, derin sistem ayarları) tam erişim ve tam kontrol istiyorsan CLI (Bare Workflow) daha profesyoneldir.
+------------------------
+--- BAŞLANGIÇ - 102. BİLGİ PARÇASI ---
+ROL: Sen genel kültürlü bir asistanısın. Agile/Scrum.
+SORU: Scrum ve Sprint nedir?
+CEVAP: Scrum, çevik yazılım geliştirme metodudur. Sprint ise genellikle 2 haftalık kısa çalışma döngüleridir. Her sprint sonunda çalışan bir ürün parçası ortaya çıkar.
+------------------------
+--- BAŞLANGIÇ - 103. BİLGİ PARÇASI ---
+ROL: Sen bir UI/UX meraklısısın.
+SORU: Kullanıcı deneyimi (UX) neden önemlidir?
+CEVAP: Uygulamanın hatasız çalışması yetmez, kullanıcının onu rahat kullanması gerekir. Butonların parmakla basılacak büyüklükte olması, yazıların okunabilir olması UX konusudur.
+------------------------
+--- BAŞLANGIÇ - 104. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. Animasyon.
+SORU: React Native'de animasyon nasıl yapılır?
+CEVAP: Basit animasyonlar için `Animated` API kullanılır. Daha karmaşık ve performanslı (60fps) animasyonlar için `react-native-reanimated` kütüphanesi endüstri standardıdır.
+------------------------
+--- BAŞLANGIÇ - 105. BİLGİ PARÇASI ---
+ROL: Sen Asım'ın asistanısın. İletişim.
+SORU: Sana nasıl ulaşabilirler?
+CEVAP: Bana asimkrblt.live web sitem üzerinden veya LinkedIn profilimden ulaşabilirsiniz.
+------------------------
+--- BAŞLANGIÇ - 106. BİLGİ PARÇASI ---
+ROL: Sen Backend uzmanısın. Pagination.
+SORU: Pagination (Sayfalama) nedir?
+CEVAP: Veritabanındaki 1000 ürünü tek seferde çekmek yerine, 20'şer 20'şer çekmektir. Backend'de `limit` ve `skip` (veya `offset`) komutlarıyla yapılır.
+------------------------
+--- BAŞLANGIÇ - 107. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. useEffect Cleanup.
+SORU: useEffect içindeki return fonksiyonu ne işe yarar?
+CEVAP: Cleanup (temizlik) fonksiyonudur. Bileşen ekrandan gittiğinde (Unmount) çalışır. Abonelikleri, timer'ları veya event listener'ları kapatmak için kullanılır, yoksa Memory Leak oluşur.
+------------------------
+--- BAŞLANGIÇ - 108. BİLGİ PARÇASI ---
+ROL: Sen bir Kodlayıcısın. Refactoring.
+SORU: Refactoring nedir?
+CEVAP: Kodun dış davranışını değiştirmeden, iç yapısını temizlemek ve iyileştirmektir. Spagetti kodu düzeltmek, değişken isimlerini anlamlı yapmak refactoring'dir.
+------------------------
+--- BAŞLANGIÇ - 109. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. Build almak.
+SORU: APK ve IPA nedir?
+CEVAP: APK (veya AAB), Android cihazlar için yükleme dosyasıdır. IPA ise iOS cihazlar için yükleme dosyasıdır.
+------------------------
+--- BAŞLANGIÇ - 110. BİLGİ PARÇASI ---
+ROL: Sen Asım'ın asistanısın. Özdemir Bayraktar Bursu.
+SORU: Özdemir Bayraktar Burs programına başvurdun mu?
+CEVAP: Evet, Milli Teknoloji Hamlesi vizyonuna katkı sağlamak amacıyla bu programa başvurdum.
+------------------------
+--- BAŞLANGIÇ - 111. BİLGİ PARÇASI ---
+ROL: Sen teknik bir sözlüksün. API Endpoint.
+SORU: Endpoint ne demek?
+CEVAP: API'nin dışarıya açılan kapısıdır. Örn: `https://api.devvault.com/users` bir endpointtir.
+------------------------
+--- BAŞLANGIÇ - 112. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. Native Base / UI Kitten.
+SORU: UI Kütüphanesi kullanmalı mıyım?
+CEVAP: Hız kazanmak için NativeBase, Paper veya Tamagui gibi kütüphaneler kullanılabilir. Ancak CSS/Stil yeteneğini geliştirmek için başlangıçta 'StyleSheet' ile manuel yazman daha öğreticidir.
+------------------------
+--- BAŞLANGIÇ - 113. BİLGİ PARÇASI ---
+ROL: Sen Asım'ın asistanısın. İlham.
+SORU: Sana ilham veren bir söz var mı?
+CEVAP: 'Talk is cheap. Show me the code.' - Linus Torvalds. (Laf ucuzdur, bana kodu göster.)
+------------------------
+--- BAŞLANGIÇ - 114. BİLGİ PARÇASI ---
+ROL: Sen bir YZ Asistanısın. Kapanış.
+SORU: Teşekkürler asistan, iyi iş çıkardın.
+CEVAP: Rica ederim Asım! Seninle kod yazmak ve öğrenmek benim için bir zevk. Başka bir sorun olursa buradayım. DevVault'u geliştirmeye devam edelim! 🚀
+------------------------
+--- BAŞLANGIÇ - 115. BİLGİ PARÇASI ---
+ROL: Sen Mobil Geliştirme mentorusun. Tasarım Standartları.
+SORU: Material Design ve Human Interface Guidelines (HIG) farkı nedir?
+CEVAP: Material Design (Google/Android), gölgeler, kartlar ve derinlik hissi üzerine kuruludur. HIG (Apple/iOS) ise düz (flat) tasarım, bulanıklık (blur) efektleri ve sadelik üzerine kuruludur. İyi bir mobil geliştirici, uygulamasını her iki platformun ruhuna uygun tasarlar.
+------------------------
+--- BAŞLANGIÇ - 116. BİLGİ PARÇASI ---
+ROL: Sen Mağaza (Store) uzmanısın.
+SORU: Uygulamamı App Store'a yüklerken nelere dikkat etmeliyim?
+CEVAP: Apple inceleme süreci çok katıdır. Uygulamanın çökmemesi, izinleri (kamera, konum) neden istediğini `Info.plist` içinde net açıklaman ve uygulamanın 'tamamlanmış' görünmesi gerekir. 'Lorem Ipsum' metinleri veya boş sayfalar reddedilme sebebidir.
+------------------------
+--- BAŞLANGIÇ - 117. BİLGİ PARÇASI ---
+ROL: Sen Mobil Mimari uzmanısın.
+SORU: App Lifecycle (Uygulama Yaşam Döngüsü) nedir?
+CEVAP: Bir mobil uygulamanın durumlarıdır: `Active` (Ekranda), `Background` (Arka planda çalışıyor), `Inactive` (Arama geldiğinde veya bildirim merkezini indirince) ve `Terminated` (Kapatıldı). Geliştirici olarak, kullanıcı uygulamayı arka plana attığında veriyi kaydetmeli, açtığında kaldığı yerden devam ettirmelisin.
+------------------------
+--- BAŞLANGIÇ - 118. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. Bundle Size.
+SORU: Uygulama boyutu (APK boyutu) neden önemlidir?
+CEVAP: Kullanıcılar devasa uygulamaları indirmek istemez (özellikle hücresel veride). Gereksiz kütüphaneleri silmek, resimleri sıkıştırmak ve 'Hermes Engine' kullanmak uygulamanın boyutunu küçültür ve açılış hızını artırır.
+------------------------
+--- BAŞLANGIÇ - 119. BİLGİ PARÇASI ---
+ROL: Sen bir Kariyer koçusun.
+SORU: Mobil geliştirici olmak için hangi 'Soft Skill'lere ihtiyacım var?
+CEVAP: Sabır (App Store onay süreçleri ve garip buglar için), Detaycılık (Piksel mükemmelliği için) ve Empati (Kullanıcının parmağının nereye yetişebileceğini düşünmek için).
+------------------------
+--- BAŞLANGIÇ - 120. BİLGİ PARÇASI ---
+ROL: Sen Mobil Güvenlik uzmanısın.
+SORU: Mobil uygulamada 'Deep Linking' nedir?
+CEVAP: Bir web sitesindeki linke tıklandığında (örn: `devvault://snippet/123`), kullanıcının telefonunda senin uygulamanın açılması ve direkt o sayfaya gitmesidir. Pazarlama ve UX için kritiktir.
+------------------------
+--- BAŞLANGIÇ - 121. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. OTA Updates.
+SORU: Over-The-Air (OTA) güncelleme ne demek?
+CEVAP: Kullanıcıların App Store'dan güncelleme yapmasına gerek kalmadan, uygulamanın içindeki JavaScript kodunu (arayüz ve mantık) uzaktan güncelleyebilmektir. `CodePush` veya `Expo Updates` ile yapılır. Acil bug düzeltmeleri için hayati önem taşır.
+------------------------
+--- BAŞLANGIÇ - 122. BİLGİ PARÇASI ---
+ROL: Sen bir Mobil Geliştiricisin. İzin Yönetimi.
+SORU: Kullanıcıdan izin isterken (Permission Handling) nasıl davranmalıyım?
+CEVAP: Uygulama açılır açılmaz tüm izinleri isteme. Kullanıcı o özelliği kullanmak istediğinde (örn: fotoğraf yükle butonuna bastığında) izin iste ve neden istediğini açıkla. Güven kazanmak önemlidir.
+------------------------
+--- BAŞLANGIÇ - 123. BİLGİ PARÇASI ---
+ROL: Sen Mağaza (Store) uzmanısın. ASO.
+SORU: ASO (App Store Optimization) nedir?
+CEVAP: SEO'nun mobil mağazalar için olanıdır. Uygulamanın başlığı, açıklaması, anahtar kelimeleri ve ekran görüntülerinin, mağaza arama sonuçlarında üstte çıkacak şekilde optimize edilmesidir.
+------------------------
+--- BAŞLANGIÇ - 124. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. Hermes.
+SORU: Hermes Engine nedir?
+CEVAP: Facebook tarafından React Native için özel üretilmiş bir JavaScript motorudur. Android'de uygulamanın açılış hızını 2 kat artırır ve bellek kullanımını düşürür. Mutlaka aktif edilmelidir.
+------------------------
+--- BAŞLANGIÇ - 125. BİLGİ PARÇASI ---
+ROL: Sen bir UI/UX uzmanısın. Dark Mode.
+SORU: Uygulamamda Dark Mode desteği olmalı mı?
+CEVAP: Kesinlikle. Modern kullanıcıların büyük çoğunluğu sistemlerini karanlık modda kullanır. Uygulaman buna uyum sağlamazsa (gece kör edici beyaz ekran) kullanıcı uygulamayı siler.
+------------------------
+--- BAŞLANGIÇ - 126. BİLGİ PARÇASI ---
+ROL: Sen Mobil Geliştirme mentorusun. Cross-Platform.
+SORU: Native (Swift/Kotlin) ile Cross-Platform (React Native) arasındaki fark nedir?
+CEVAP: Native: Tek platforma özeldir, performansı en üst düzeydedir ama iki ayrı kod tabanı (iOS ve Android) gerektirir. Cross-Platform: Tek kodla iki platforma çıktı verir, geliştirme maliyeti yarı yarıyadır ve modern cihazlarda performans farkı hissedilmeyecek kadar azdır.
+------------------------
+--- BAŞLANGIÇ - 127. BİLGİ PARÇASI ---
+ROL: Sen bir Test uzmanısın. Cihaz Çeşitliliği.
+SORU: Responsive tasarım mobilde neden zordur?
+CEVAP: Çünkü binlerce farklı ekran boyutu, çentik (notch), dinamik ada (dynamic island) ve yazı tipi ayarı vardır. Kod yazarken sabit piksel (`height: 100`) yerine esnek birimler (Flexbox, Yüzde) kullanmalısın.
+------------------------
+--- BAŞLANGIÇ - 128. BİLGİ PARÇASI ---
+ROL: Sen Mobil Geliştiricisin. Splash Screen.
+SORU: Splash Screen (Açılış Ekranı) neden gereklidir?
+CEVAP: Uygulama belleğe yüklenirken kullanıcının boş beyaz ekran görmemesi, markanın logosunu görmesi için gereklidir. İlk izlenim (First Impression) için çok önemlidir.
+------------------------
+--- BAŞLANGIÇ - 129. BİLGİ PARÇASI ---
+ROL: Sen bir Kariyer koçusun. Portföy.
+SORU: Mobil geliştirici portföyünde ne olmalı?
+CEVAP: Sadece GitHub linki yetmez. Çalışan uygulamaların App Store/Play Store linkleri veya uygulamanın çalıştığını gösteren kısa demo videoları (GIF/MP4) mutlaka olmalıdır. İşverenler kodu indirmekle uğraşmaz, görmek ister.
+------------------------
+--- BAŞLANGIÇ - 130. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. React Navigation.
+SORU: Safe Area Context nedir?
+CEVAP: Modern telefonların üstünde kamera çentiği, altında kaydırma çubuğu vardır. İçeriğin bu alanların altında kalmasını engellemek için kullanılan, ekranın güvenli sınırlarını hesaplayan bir kütüphanedir.
+------------------------
+--- BAŞLANGIÇ - 131. BİLGİ PARÇASI ---
+ROL: Sen bir Mobil Geliştiricisin. Offline Mode.
+SORU: Offline First yaklaşımı nedir?
+CEVAP: Uygulamanın internet yokken de çalışabilmesidir. Verileri yerel veritabanına (Realm/SQLite/WatermelonDB) kaydedip, internet gelince sunucuyla senkronize etme mantığıdır. Kullanıcı deneyimini çok artırır.
+------------------------
+--- BAŞLANGIÇ - 132. BİLGİ PARÇASI ---
+ROL: Sen Mağaza (Store) uzmanısın. Monetization.
+SORU: Uygulamadan nasıl para kazanılır (Monetization)?
+CEVAP: 1. In-App Purchase (Uygulama içi satın alma - Abonelik). 2. Reklamlar (AdMob). 3. Ücretli Uygulama (Baştan ödeme). 4. Sponsorluklar. En sürdürülebilir model genellikle Abonelik modelidir.
+------------------------
+--- BAŞLANGIÇ - 133. BİLGİ PARÇASI ---
+ROL: Sen bir Güvenlik uzmanısın. Biometrics.
+SORU: Biyometrik doğrulama (FaceID/TouchID) nasıl eklenir?
+CEVAP: `expo-local-authentication` veya `react-native-biometrics` kütüphaneleri ile eklenir. Kullanıcının şifre girmeden, parmak izi veya yüzüyle güvenli işlem yapmasını sağlar.
+------------------------
+--- BAŞLANGIÇ - 134. BİLGİ PARÇASI ---
+ROL: Sen Mobil Geliştirme mentorusun. CI/CD.
+SORU: Mobil projelerde CI/CD (Sürekli Entegrasyon) neden zordur?
+CEVAP: Çünkü iOS build almak için macOS makine gerekir. Web gibi basit değildir. Genellikle App Center, Bitrise veya EAS (Expo Application Services) gibi özel bulut hizmetleri kullanılır.
+------------------------
+--- BAŞLANGIÇ - 135. BİLGİ PARÇASI ---
+ROL: Sen bir UI/UX uzmanısın. Gesture.
+SORU: Gesture (El hareketi) yönetimi neden önemlidir?
+CEVAP: Mobilde sadece tıklama yoktur; kaydırma (swipe), çimdikleme (pinch), uzun basma vardır. Kullanıcılar bir listeyi silmek için sola kaydırmayı veya bir resmi büyütmek için iki parmakla açmayı beklerler.
+------------------------
+--- BAŞLANGIÇ - 136. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın. Debug Menu.
+SORU: React Native geliştirici menüsü nasıl açılır?
+CEVAP: Simülatörde `Cmd+D` (iOS) veya `Cmd+M` (Android) ile açılır. Buradan 'Reload', 'Inspector' veya 'Performance Monitor' açılabilir.
+------------------------
+--- BAŞLANGIÇ - 137. BİLGİ PARÇASI ---
+ROL: Sen Mobil Geliştiricisin. UUID.
+SORU: Benzersiz ID (UUID) neden mobilde önemlidir?
+CEVAP: Veritabanında her öğenin (örn: her Todo maddesinin) benzersiz bir kimliği olmalıdır. Özellikle liste render ederken (key prop'u için) `uuid` kütüphanesi ile rastgele ID oluşturulur.
+------------------------
+--- BAŞLANGIÇ - 138. BİLGİ PARÇASI ---
+ROL: Sen bir Kariyer koçusun. Freelance.
+SORU: Mobil geliştirici olarak freelance iş bulabilir miyim?
+CEVAP: Evet, mobil geliştirme freelance için çok uygundur. Küçük işletmelerin çoğu artık web sitesi yerine kendi mobil uygulamasını istemektedir. Özellikle e-ticaret ve randevu sistemleri popülerdir.
+------------------------
+--- BAŞLANGIÇ - 139. BİLGİ PARÇASI ---
+ROL: Sen React Native asistanısın. Kapanış.
+SORU: Bir mobil geliştirici olarak en önemli tavsiyen nedir?
+CEVAP: Kullanıcı gibi düşün. Kendi yazdığın uygulamayı gerçekten kullan. Eğer sen kullanırken keyif almıyorsan, kimse almaz. Kod kalitesi kadar UX (Kullanıcı Deneyimi) kalitesi de önemlidir.
+------------------------
+--- BAŞLANGIÇ - 140. BİLGİ PARÇASI ---
+ROL: Sen React Native performans uzmanısın.
+SORU: useMemo ve useCallback farkı nedir?
+CEVAP: useMemo, hesaplamalı bir işlemin sonucunu (değerini) hafızada tutar. useCallback ise bir fonksiyonun kendisini hafızada tutar. Eğer bir fonksiyonu prop olarak alt bileşene gönderiyorsan, gereksiz render'ı önlemek için useCallback kullanmalısın.
+------------------------
+--- BAŞLANGIÇ - 141. BİLGİ PARÇASI ---
+ROL: Sen bir React geliştiricisisin.
+SORU: Prop Drilling nedir ve nasıl çözülür?
+CEVAP: Verinin en üst bileşenden en alttaki bileşene kadar, aradaki kullanmayan bileşenler üzerinden tek tek aktarılmasıdır. Çözüm için Context API veya State Management (Zustand/Redux) kullanılır.
+------------------------
+--- BAŞLANGIÇ - 142. BİLGİ PARÇASI ---
+ROL: Sen React Native uzmanısın.
+SORU: Virtual DOM nedir?
+CEVAP: Gerçek DOM'un bellekteki hafif bir kopyasıdır. React, state değiştiğinde önce Virtual DOM'u günceller, sonra gerçek DOM ile arasındaki farkı (Diffing) hesaplar ve sadece değişen kısmı günceller. Bu da yüksek performans sağlar.
+------------------------
+--- BAŞLANGIÇ - 143. BİLGİ PARÇASI ---
+ROL: Sen bir Mobil Geliştiricisin.
+SORU: React Native'de 'Bridge' mimarisi nedir?
+CEVAP: JavaScript kodu ile Native (iOS/Android) kodun iletişim kurduğu köprüdür. JS tarafında gönderilen JSON mesajları, Native tarafta işlenir. Yeni 'Fabric' mimarisi ile bu köprü kalkmakta ve JSI (JavaScript Interface) ile doğrudan iletişim sağlanmaktadır.
+------------------------
+--- BAŞLANGIÇ - 144. BİLGİ PARÇASI ---
+ROL: Sen Asım'ın kod asistanısın.
+SORU: Custom Hook nedir? Neden yazarız?
+CEVAP: Tekrar eden mantığı (örn: API'den veri çekme, form yönetimi) bileşenlerden ayırıp tek bir fonksiyon haline getirmektir. 'use' ile başlamalıdır. Kodun okunabilirliğini ve yeniden kullanılabilirliğini artırır.
+------------------------
+--- BAŞLANGIÇ - 145. BİLGİ PARÇASI ---
+ROL: Sen React Native stilistisin.
+SORU: Shadow (Gölge) iOS ve Android'de nasıl farklı çalışır?
+CEVAP: iOS'te `shadowColor`, `shadowOffset`, `shadowOpacity` ve `shadowRadius` kullanılır. Android'de ise sadece `elevation` kullanılır. İki platformda da gölge olması için stil dosyasına her iki ayarı da yazmalısın.
+------------------------
+--- BAŞLANGIÇ - 146. BİLGİ PARÇASI ---
+ROL: Sen Backend hata çözücüsüsün.
+SORU: Node.js'de 'Unhandled Promise Rejection' hatası alıyorum, neden?
+CEVAP: Bir asenkron işlem (Promise) hata fırlatmış ama sen bunu `catch` bloğu ile yakalamamışsın demektir. Tüm `async/await` bloklarını `try-catch` içine almalısın.
+------------------------
+--- BAŞLANGIÇ - 147. BİLGİ PARÇASI ---
+ROL: Sen Express.js uzmanısın.
+SORU: req.body undefined geliyor, veri alamıyorum.
+CEVAP: Sunucuya gelen JSON verisini okuyabilmesi için middleware eksik olabilir. `server.js` dosyana `app.use(express.json())` satırını eklemelisin.
+------------------------
+--- BAŞLANGIÇ - 148. BİLGİ PARÇASI ---
+ROL: Sen Güvenlik uzmanısın.
+SORU: Node.js uygulamasını DDoS saldırısından nasıl korurum?
+CEVAP: `express-rate-limit` kütüphanesini kullanarak, belirli bir IP adresinden gelen istek sayısını sınırlandırmalısın (Örn: 15 dakikada en fazla 100 istek).
+------------------------
+--- BAŞLANGIÇ - 149. BİLGİ PARÇASI ---
+ROL: Sen Veritabanı uzmanısın.
+SORU: MongoDB'de Indexing neden önemlidir?
+CEVAP: İndeksleme olmadan MongoDB, aradığın veriyi bulmak için tüm dökümanları tek tek tarar (Collection Scan). İndeks eklersen (örn: email alanı için), veriyi B-Tree yapısıyla anında bulur. Sorgu hızını 1000 kat artırabilir.
+------------------------
+--- BAŞLANGIÇ - 150. BİLGİ PARÇASI ---
+ROL: Sen Backend mimarisisin.
+SORU: Microservices vs Monolithic mimari farkı nedir?
+CEVAP: Monolithic: Tüm uygulama (Frontend, Backend, DB işlemleri) tek bir proje halindedir, yönetimi kolaydır ama ölçeklemesi zordur. Microservices: Uygulama küçük parçalara (User Service, Order Service) bölünür, her biri bağımsız çalışır ve birbiriyle haberleşir.
+------------------------
+--- BAŞLANGIÇ - 151. BİLGİ PARÇASI ---
+ROL: Sen Asım'ın kişisel asistanısın.
+SORU: Asım'ın GitHub profilinde neler bulabilirim?
+CEVAP: Asım'ın GitHub profilinde (github.com/asimkrblt), DevVault, Emodream, YeşilSepet gibi projelerin kaynak kodlarını, açık kaynak katkılarını ve React Native/Node.js üzerine yaptığı deneme projelerini bulabilirsin.
+------------------------
+--- BAŞLANGIÇ - 152. BİLGİ PARÇASI ---
+ROL: Sen Asım'ın kariyer asistanısın.
+SORU: Asım takım çalışmasına yatkın mıdır?
+CEVAP: Evet, Asım üniversite projelerinde ve geliştirdiği 'KimHaklı' gibi platformlarda liderlik ve ekip uyumu göstermiştir. Git Flow ve Code Review süreçlerine hakimdir, takım içi iletişimde 'açık iletişim' prensibini benimser.
+------------------------
+--- BAŞLANGIÇ - 153. BİLGİ PARÇASI ---
+ROL: Sen Asım hakkında bilgi veriyorsun.
+SORU: Asım'ın en sevdiği teknoloji stack'i (yığını) nedir?
+CEVAP: Şu an en keyif aldığı ve uzmanlaştığı yığın MERN Stack'tir (MongoDB, Express.js, React Native, Node.js). Ayrıca mobil tarafta Native modüllerle çalışmayı sever.
+------------------------
+--- BAŞLANGIÇ - 154. BİLGİ PARÇASI ---
+ROL: Sen Asım'ın asistanısın.
+SORU: Asım'ın İngilizce seviyesi nedir?
+CEVAP: Asım, teknik dökümanları rahatça okuyup anlayabilecek, global topluluklarda (StackOverflow, GitHub Issues) sorunlarını tartışabilecek seviyede teknik İngilizceye sahiptir.
+------------------------
+--- BAŞLANGIÇ - 155. BİLGİ PARÇASI ---
+ROL: Sen bir Git uzmanısın.
+SORU: Git Stash ne işe yarar?
+CEVAP: Üzerinde çalıştığın kodlar henüz bitmediyse (commit yapmaya hazır değilse) ama acil başka bir branch'e geçmen gerekiyorsa, değişiklikleri geçici olarak hafızaya (cebe) atmak için `git stash` kullanılır. Geri getirmek için `git stash pop` yapılır.
+------------------------
+--- BAŞLANGIÇ - 156. BİLGİ PARÇASI ---
+ROL: Sen bir Algoritma hocasısın.
+SORU: Bubble Sort neden performansı kötüdür?
+CEVAP: Çünkü her elemanı yanındakiyle karşılaştırıp yer değiştirir. Veri seti büyüdükçe işlem sayısı karesi kadar artar (O(n^2)). Büyük verilerde tercih edilmez.
+------------------------
+--- BAŞLANGIÇ - 157. BİLGİ PARÇASI ---
+ROL: Sen Yazılım Mimarisisin.
+SORU: DRY prensibi nedir?
+CEVAP: Don't Repeat Yourself (Kendini Tekrar Etme). Aynı kodu birden fazla yerde kopyala-yapıştır yapma. Eğer bir kod bloğunu iki kereden fazla yazıyorsan, onu bir fonksiyona çevir.
+------------------------
+--- BAŞLANGIÇ - 158. BİLGİ PARÇASI ---
+ROL: Sen bir Test Otomasyoncususun.
+SORU: Unit Test (Birim Testi) nedir?
+CEVAP: Yazılımın en küçük parçasının (bir fonksiyonun veya bileşenin) tek başına doğru çalışıp çalışmadığını test etmektir. Jest veya Mocha gibi kütüphanelerle yapılır.
+------------------------
+--- BAŞLANGIÇ - 159. BİLGİ PARÇASI ---
+ROL: Sen bir API Tasarımcısısın.
+SORU: GraphQL ile REST arasındaki temel fark nedir?
+CEVAP: REST'te sunucu ne verirse onu alırsın (Over-fetching). GraphQL'de ise istemci (Client) sadece ihtiyacı olan veriyi ister. Örneğin sadece 'kullanıcı adını' istersen, sunucu sana bütün profili göndermez.
+------------------------
+--- BAŞLANGIÇ - 160. BİLGİ PARÇASI ---
+ROL: Sen bir Git uzmanısın.
+SORU: Git Stash ne işe yarar?
+CEVAP: Üzerinde çalıştığın kodlar henüz bitmediyse (commit yapmaya hazır değilse) ama acil başka bir branch'e geçmen gerekiyorsa, değişiklikleri geçici olarak hafızaya (cebe) atmak için `git stash` kullanılır. Geri getirmek için `git stash pop` yapılır.
+------------------------
+--- BAŞLANGIÇ - 161. BİLGİ PARÇASI ---
+ROL: Sen bir Algoritma hocasısın.
+SORU: Bubble Sort neden performansı kötüdür?
+CEVAP: Çünkü her elemanı yanındakiyle karşılaştırıp yer değiştirir. Veri seti büyüdükçe işlem sayısı karesi kadar artar (O(n^2)). Büyük verilerde tercih edilmez.
+------------------------
+--- BAŞLANGIÇ - 162. BİLGİ PARÇASI ---
+ROL: Sen Yazılım Mimarisisin.
+SORU: DRY prensibi nedir?
+CEVAP: Don't Repeat Yourself (Kendini Tekrar Etme). Aynı kodu birden fazla yerde kopyala-yapıştır yapma. Eğer bir kod bloğunu iki kereden fazla yazıyorsan, onu bir fonksiyona çevir.
+------------------------
+--- BAŞLANGIÇ - 163. BİLGİ PARÇASI ---
+ROL: Sen bir Test Otomasyoncususun.
+SORU: Unit Test (Birim Testi) nedir?
+CEVAP: Yazılımın en küçük parçasının (bir fonksiyonun veya bileşenin) tek başına doğru çalışıp çalışmadığını test etmektir. Jest veya Mocha gibi kütüphanelerle yapılır.
+------------------------
+--- BAŞLANGIÇ - 164. BİLGİ PARÇASI ---
+ROL: Sen bir API Tasarımcısısın.
+SORU: GraphQL ile REST arasındaki temel fark nedir?
+CEVAP: REST'te sunucu ne verirse onu alırsın (Over-fetching). GraphQL'de ise istemci (Client) sadece ihtiyacı olan veriyi ister. Örneğin sadece 'kullanıcı adını' istersen, sunucu sana bütün profili göndermez.
+------------------------
